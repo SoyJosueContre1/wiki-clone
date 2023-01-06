@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    color: #3366cc;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+}
+
+header figure img {
+    width: 20rem;
+}
+
+main {
+    width: 100%;
+}
+
+main .main-world {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-world ul,
+main .main-world figure {
+    margin: 10px;
+}
+
+main .main-world ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    margin: 20px 0;
+    position: relative;
+}
+
+main .main-world ul li:hover {
+    cursor: pointer;
+    background-color: #eaecf0;
+}
+
+main .main-world ul span {
+    font-size: 1.3rem;
+}
+
+
+main .main-world .main-world-left li:nth-child(1),
+main .main-world .main-world-left li:nth-child(5) {
+    left: 70px;
+}
+
+main .main-world .main-world-left li:nth-child(2),
+main .main-world .main-world-left li:nth-child(4) {
+    left: 15px;
+}
+
+main .main-world .main-world-right li:nth-child(1),
+main .main-world .main-world-right li:nth-child(5) {
+    right: 70px;
+}
+
+main .main-world .main-world-right li:nth-child(2),
+main .main-world .main-world-right li:nth-child(4) {
+    right: 15px;
+}
+
+main .main-world ul li a {
+    margin: 5px;
+}
+
+main .main-world ul li a:hover {
+    text-decoration: underline;
+}
+
+main .main-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-search .search-container {
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    height: 4.4rem;
+    border: 1px solid #a2a9b1;
+}
+
+main .main-search .search-container input {
+    height: 100%;
+    flex-grow: 1;
+    border: none;
+}
+
+main .main-search .search-container p {
+    padding: 0 0.5rem 0 1rem;
+}
+
+main .main-search .search-container .arrow-icon {
+    background-image: url('https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 10px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+main .main-search figure {
+    background-color: #3366cc;
+    width: 4.4rem;
+    height: 4.4rem;
+    padding: 1rem;
+}
+
+main .main-search figure img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+main .main-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .main-language .content-container {
+    width: 30rem;
+    background-color: white;
+    padding: 2rem;
+}
+
+main .main-language .content-container .content {
+    border: 1px solid #a2a9b1;
+    text-align: center;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f8f9fa;
+    font-size: 1.4rem;
+    color: #3366cc;
+}
+
+main .main-language .content-container .content:hover {
+    cursor: pointer;
+}
+
+main .main-language .content-container .content .language-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/OOjs_UI_icon_language-ltr-progressive.svg/240px-OOjs_UI_icon_language-ltr-progressive.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+}
+
+main .main-language .content-container .content .bluearrow-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/143/143271.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1rem;
+    height: 2rem;
+}
+
+main .main-language article {
+    border-top: 1px solid #a2a9b1;
+    width: 44rem;
+    position: relative;
+    bottom: 4rem;
+    z-index: -1;
+}
+
+main .main-wiki {
+    width:  95%;
+    border-top: 1px solid #c8ccd1;
+    margin-top: 2rem;
+    padding-top: 5rem;
+    display: flex;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+main .main-wiki .main-wiki-left {
+    width: 30%;
+    padding: 1rem;
+}
+
+main .main-wiki .main-wiki-left article {
+    display: flex;
+    padding: 1rem;
+    width: 35rem;
+}
+
+main .main-wiki .main-wiki-left article:nth-child(1) {
+    margin-bottom: 4rem;
+}
+
+main .main-wiki .main-wiki-left article:nth-child(2) {
+    background-color: #f8f9fa;
+}
+
+main .main-wiki .main-wiki-left article figure {
+    margin: 1rem;
+}
+
+main .main-wiki .main-wiki-left img {
+    width: 4rem;
+}
+
+main .main-wiki .main-wiki-left .wiki-apps {
+    display: flex;
+}
+
+main .main-wiki .main-wiki-left .wiki-apps img {
+    width: 50%;
+}
+
+main .main-wiki .main-wiki-right {
+    width: 70%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .main-wiki .main-wiki-right > div {
+    display: flex;
+    width: calc(100% / 3);
+    padding: 1rem;
+}
+
+main .main-wiki .main-wiki-right div figure {
+    margin: 1rem;
+}
+
+main .main-wiki .main-wiki-right img {
+    width: 3.5rem;
+}
